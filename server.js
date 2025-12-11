@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_ORIGIN || 'https://frontend.onrender.com',
+    origin: process.env.FRONTEND_ORIGIN || 'https://airtimefrontend.onrender.com',
     credentials: true
 }));
 app.use(express.json());
